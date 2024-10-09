@@ -115,7 +115,7 @@ bool lucas_lehmer_test(unsigned long long p) {
 }
 
 int main() {
-    unsigned long long p = 31;
+    unsigned long long p = 398147777 ;
 
     std::cout << "Testing primality of 2^" << p << " - 1 using Lucas-Lehmer test with FFT..." << std::endl;
 
